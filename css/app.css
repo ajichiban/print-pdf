@@ -1,0 +1,223 @@
+* , *::before , *::after {
+    box-sizing: border-box;
+    
+    
+}
+body{
+     font-family: 'Open Sans', sans-serif;
+}
+
+/* Generales */
+.printPdf{
+    margin-top: 50px;
+}
+
+/*--- --- HEADER --- ---*/
+.logo img {
+    width: 190px;
+}
+
+.encabezado {
+    text-align: center;
+}
+.encabezado h2{
+    font-size: 25px !important;
+    font-weight: bold;
+}
+.encabezado b {
+    text-transform: uppercase;
+}
+.encabezado small {
+    color: rgb(78, 80, 82);
+}
+
+.encabezado h3{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 23px;
+    margin-top: 42px;
+}
+
+/*--- --- CLIENT DATA --- ---*/
+.data-client{
+    margin-top: 20px;
+}
+.sub-title {
+    padding: 0;
+    text-align: center;
+    background: #4970ddd2;
+    text-transform: uppercase;
+    /* border-top: 1px solid rgb(15, 14, 14);
+    border-bottom: 1px solid rgb(15, 14, 14); */ 
+    margin-bottom: 10px;
+}
+.sub-title h4{
+    font-weight: 500;
+}
+.column-2 > * ,.column-4 > * {
+    width: 100%;
+    border-bottom: 1px rgb(15, 14, 14) solid;
+    height: 20px;
+}
+
+.column-1 > *, .column-2 > * ,.column-3 > * , .column-4 > * {
+    margin-bottom: 15px;
+}
+/*--- Services ---*/
+.container-services{
+    margin-top: 20px;
+}
+.services{
+    display: flex;
+    border-top: 1px solid rgb(207, 205, 205);
+    border-bottom: 1px solid rgb(207, 205, 205);
+    
+}
+.services > *{
+    flex: 1;
+    text-align: center;
+    padding: 5px;
+}
+.services .service-type{
+    background: #93aae9
+    
+}
+
+/*--- --- WORK TO DEVELOP --- ---*/
+.work-develop > * {
+    width: 100%;
+    border-bottom: 1px rgb(15, 14, 14) solid;
+    height: 35px;
+}
+
+/*--- --- WORK TO DEVELOPED --- ---*/
+.container-work-developed {
+    margin-top: 35px;
+}
+.work-developed{
+    display: flex;
+    border-bottom: 1px solid rgb(207, 205, 205);
+}
+.work-developed > div:first-child, .work-developed > div:nth-child(3) {
+    flex-basis: 40%;
+    padding: 5px;
+}
+.work-developed > div:nth-child(2), .work-developed > div:nth-child(4) {
+    flex-basis: 10%;
+    padding: 5px;
+}
+
+.work-developed > *{
+    border-left: 1px solid rgb(207, 205, 205);
+}
+
+/*--- --- EQUIPAMENT AND MATERIALS USED --- ---*/
+.table-materials{
+    margin-bottom: 0;
+}
+.table-materials tr th{
+    text-align: center;
+    padding: 20px !important;
+    
+}
+.table-materials tr td{
+    padding: 15px !important;
+}
+
+/*--- --- EVALUATION --- ---*/
+.table-evaluation h4{
+    font-size: 13px;
+    font-weight: lighter;
+    color: #777070;
+    text-transform: uppercase;
+    text-align: center;
+}
+.table-evaluation-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+    
+}
+.table-evaluation-details > div {
+    
+}
+.table-evaluation-details > div:first-child{
+    flex-basis: 40%;
+}
+.table-evaluation-details .md > span{
+    display: flex;
+}
+.table-evaluation-details .md div{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #777070;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    
+}
+.services-e div{
+    margin-bottom: 5px;
+}
+.client-comments{
+    padding: 0 20px 0 20px;
+}
+.client-comments .col-sm-3{
+    line-height: 43px;
+}
+.client-comments .col-sm-9, .client-comments .col-sm-12 {
+    height: 35px;
+    border-bottom: 1px rgb(63, 59, 59) solid;
+}
+
+/*--- End parts ---*/
+.sign {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.sign .date{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.sign .date > div:nth-child(even){
+    border-bottom: 1px rgb(63, 59, 59) solid;
+    flex-basis: 18%;
+    margin-right: 20px;
+}
+
+.sign .date2{
+    display: flex;
+}
+.sign .date2 >*{
+    flex-basis: 50%;
+    text-align: center;
+    padding-right: 20px;
+}
+
+.date2 .date2-left div:first-child{
+    border-bottom: 1px rgb(63, 59, 59) solid;
+    margin-bottom: 15px;
+}
+
+.date2 .date2-right div:nth-child(odd){
+    border-bottom: 1px rgb(63, 59, 59) solid;
+    margin-bottom: 10px;
+}
+
+.date2 .date2-right :nth-child(2){
+    margin-bottom: 46px;
+}
+
+.date2 .date2-right .times{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*--- button to print it ---*/
+.container-btn{
+    margin-bottom: 100px;
+    text-align: center;
+}
